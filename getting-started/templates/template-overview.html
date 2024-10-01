@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "Raleway", sans-serif;
+			}
+
+			img {
+				width: 100%;
+				aspect-ratio: 1/1;
+				object-fit: cover;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 2rem auto;
+				padding: 1.5rem;
+			}
+
+			.cards {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 2rem;
+			}
+
+			.card {
+				border: 1px solid #ccc;
+				text-align: center;
+			}
+
+			.card__details {
+				padding: 1.5rem;
+				display: grid;
+				gap: 0.8rem;
+			}
+
+			.card__name {
+				color: #0a1624;
+			}
+
+			.card__position {
+				font-size: 0.95rem;
+				color: #616161;
+			}
+
+			.card__details a {
+				color: #0055b1;
+				text-decoration: none;
+			}
+		</style>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1 style="text-align: center; color: #0a1624; padding: 1rem 0">
+				Our Team
+			</h1>
+			<div class="cards">{%MEMBER_CARDS%}</div>
+		</div>
+	</body>
+</html>

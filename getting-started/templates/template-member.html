@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "Raleway", sans-serif;
+			}
+
+			img {
+				width: 100%;
+				aspect-ratio: 1/1;
+				object-fit: cover;
+			}
+
+			.container {
+				max-width: 1200px;
+				margin: 2rem auto;
+				padding: 1.5rem;
+			}
+
+			.container a {
+				color: #0055b1;
+				text-decoration: none;
+				border: 1px solid #0055b1;
+				padding: 0.7rem 1.6rem;
+			}
+
+			figure {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				align-items: center;
+				gap: 2rem;
+				margin: 1.5rem 0;
+			}
+		</style>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<a href="/overview">Back</a>
+			<figure class="member">
+				<img src="{%IMAGE%}" alt="Member 1" />
+				<div class="member__deets">
+					<h2 style="padding: 1rem 0; color: #041425">{%NAME%}</h2>
+					<p style="color: #041425">{%DESCRIPTION%}</p>
+				</div>
+			</figure>
+		</div>
+	</body>
+</html>

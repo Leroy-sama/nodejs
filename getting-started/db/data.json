@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"name": "Kit Harrington",
+		"image": "https://i.pinimg.com/564x/f6/e2/e2/f6e2e261e153d3e87ef5782f50b6db08.jpg",
+		"position": "Tech Lead",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta velit. Odio error similique odit sint cupiditate voluptatibus quos, consequatur eaque molestiae dolore reiciendis, fuga, fugit perspiciatis suscipit sequi? Non est delectus rerum? Recusandae molestias libero autem at quaerat minima, sapiente nobis alias voluptatum iure reprehenderit ea soluta quod consequatur.",
+		"socials": "https://x.com"
+	},
+	{
+		"id": 2,
+		"name": "Alexander Ludwing",
+		"image": "https://i.pinimg.com/564x/6b/13/95/6b13953cbb92bd746258524cd9d64ddf.jpg",
+		"position": "Production Lead",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta velit. Odio error similique odit sint cupiditate voluptatibus quos, consequatur eaque molestiae dolore reiciendis, fuga, fugit perspiciatis suscipit sequi? Non est delectus rerum? Recusandae molestias libero autem at quaerat minima, sapiente nobis alias voluptatum iure reprehenderit ea soluta quod consequatur.",
+		"socials": "https://x.com"
+	},
+	{
+		"id": 3,
+		"name": "Kathrine Winnick",
+		"image": "https://i.pinimg.com/564x/c4/3f/ed/c43fed0999b4146fdd528db27279cd83.jpg",
+		"position": "Senior Developer",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta velit. Odio error similique odit sint cupiditate voluptatibus quos, consequatur eaque molestiae dolore reiciendis, fuga, fugit perspiciatis suscipit sequi? Non est delectus rerum? Recusandae molestias libero autem at quaerat minima, sapiente nobis alias voluptatum iure reprehenderit ea soluta quod consequatur.",
+		"socials": "https://x.com"
+	},
+	{
+		"id": 4,
+		"name": "Tristin Mays",
+		"image": "https://i.pinimg.com/564x/0d/03/a8/0d03a880737b911ad478fa258a64ec99.jpg",
+		"position": "Cyber Security Expert",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta velit. Odio error similique odit sint cupiditate voluptatibus quos, consequatur eaque molestiae dolore reiciendis, fuga, fugit perspiciatis suscipit sequi? Non est delectus rerum? Recusandae molestias libero autem at quaerat minima, sapiente nobis alias voluptatum iure reprehenderit ea soluta quod consequatur.",
+		"socials": "https://x.com"
+	},
+	{
+		"id": 5,
+		"name": "Cillian Murphy",
+		"image": "https://i.pinimg.com/564x/73/ff/62/73ff629fd051c2b04981d58d79f18caa.jpg",
+		"position": "System Architect",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta velit. Odio error similique odit sint cupiditate voluptatibus quos, consequatur eaque molestiae dolore reiciendis, fuga, fugit perspiciatis suscipit sequi? Non est delectus rerum? Recusandae molestias libero autem at quaerat minima, sapiente nobis alias voluptatum iure reprehenderit ea soluta quod consequatur.",
+		"socials": "https://x.com"
+	},
+	{
+		"id": 6,
+		"name": "JID",
+		"image": "https://i.pinimg.com/736x/83/88/cd/8388cdb1bc4fdaeebcccbce3458c694d.jpg",
+		"position": "The Jedi",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, soluta velit. Odio error similique odit sint cupiditate voluptatibus quos, consequatur eaque molestiae dolore reiciendis, fuga, fugit perspiciatis suscipit sequi? Non est delectus rerum? Recusandae molestias libero autem at quaerat minima, sapiente nobis alias voluptatum iure reprehenderit ea soluta quod consequatur.",
+		"socials": "https://x.com"
+	}
+]
