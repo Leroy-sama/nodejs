@@ -2,20 +2,14 @@ const fs = require("fs");
 const http = require("http");
 const url = require("url");
 
-const replaceTemplate = (temp, member) => {
-	let output = temp.replace(/{%NAME%}/g, member.name);
-	output = output.replace(/{%IMAGE%}/g, member.image);
-	output = output.replace(/{%POSITION%}/g, member.position);
-	output = output.replace(/{%DESCRIPTION%}/g, member.description);
-	output = output.replace(/{%ID%}/g, member.id);
-	return output;
-};
+const slugify = require("slugify");
+
+const replaceTemplate = require("./modules/replaceTemplate");
 
 const tempOverview = fs.readFileSync(
 	`${__dirname}/templates/template-overview.html`,
 	"utf-8"
 );
-
 const tempCard = fs.readFileSync(
 	`${__dirname}/templates/template-card.html`,
 	"utf-8"
@@ -29,8 +23,13 @@ const tempMember = fs.readFileSync(
 const data = fs.readFileSync(`${__dirname}/db/data.json`, "utf-8");
 const dataObj = JSON.parse(data);
 
+const slugs = dataObj.map((el) => slugify(el.name, { lower: true }));
+// console.log(slugs);
+
 const server = http.createServer((req, res) => {
 	const { query, pathname } = url.parse(req.url, true);
+
+	console.log(query);
 
 	if (pathname === "/" || pathname === "/overview") {
 		res.writeHead(200, {
