@@ -1,15 +1,15 @@
 {
-  "name": "natours-api",
-  "version": "1.0.0",
-  "description": "node, express, mongo",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "__riroi",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.2",
-    "morgan": "^1.10.0"
-  }
+	"name": "natours-api",
+	"version": "1.0.0",
+	"description": "node, express, mongo",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"author": "__riroi",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.2",
+		"morgan": "^1.10.0"
+	}
 }
