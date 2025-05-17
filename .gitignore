@@ -1,3 +1,5 @@
 Natours-API/node_modules/
 getting-started/node_modules/
 Natours-API/config.env
+test-comm/config.env
+test-comm/node_modules

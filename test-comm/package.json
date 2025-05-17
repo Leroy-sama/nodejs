@@ -1,0 +1,16 @@
+{
+	"name": "comm-test",
+	"version": "1.0.0",
+	"description": "A test ecommerce api",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"author": "d3fau1t",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.7",
+		"express": "^5.1.0",
+		"mongoose": "^8.13.2"
+	}
+}
